@@ -34,7 +34,7 @@ read -p "Pilih (1 atau 2): " POOL_CHOICE
 if [ "$POOL_CHOICE" == "1" ]; then
   POOL_URL="stratum+tcp://$WALLET_ADDRESS.$WORKER_NAME@pool-a.yatespool.com:31588"
 elif [ "$POOL_CHOICE" == "2" ]; then
-  POOL_URL="stratum+tcp://$WALLET_ADDRESS.$WORKER_NAME@pool-b.yatespool.com:32488"
+  POOL_URL="stratum+tcp://$WALLET_ADDRESS.$WORKER_NAME@pool-c.yatespool.com:31189"
 else
   echo "Pilihan tidak valid. Keluar."
   exit 1
